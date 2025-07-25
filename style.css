@@ -1,0 +1,111 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+    box-sizing: border-box; 
+    gap: -10px;
+    justify-content: center;
+}
+
+body {
+    margin:0;
+    background-blend-mode: multiply;
+    opacity: 1;
+    background: URL("divbg.png");
+    font-family: "Poppins", sans-serif;
+    background-color: hsla(0, 100%, 74%, 1);    
+    box-sizing: border-box;
+}
+
+.form {
+    background-color: white;
+    width: 90%;
+    margin:10px auto;
+    border-radius: 5px;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 400px;
+    padding-top: 15px;
+    box-shadow: 0 8px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    width: 40%;
+    height: 80%;
+    box-sizing: border-box;
+    padding-top: 130px;
+    color: white;
+    gap: 5px;
+    font-weight: 400;
+}
+
+.text h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 1px;
+    gap:10px;
+    letter-spacing: 4px; 
+}
+
+.text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 92%);
+    letter-spacing: 1px;
+}
+
+.right-div {
+    width: 40%;
+    text-align: center;
+}
+
+.trial {
+    background-color:  hsl(248, 32%, 49%);
+    width: 90%;
+    padding: 15px 10px;
+    margin: 20px auto;
+    box-shadow: 0 8px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+    color: white;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.form input {
+    width: 85%;
+    padding:15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    border-radius: 5px;
+    border: .5px solid hsl(249, 10%, 26%, .5);
+}
+
+.paragraph {
+    font-size: 10px;
+    color: hsl(249, 10%, 26%);
+    margin: 10px auto
+}
+
+.form button {
+    width: 85%;
+    padding:15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    button:hover {
+        background-color: hsl(154, 59%, 61%);
+}
